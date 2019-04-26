@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .content {
+  position: relative;
+  height: 1122px;
+  width: 837px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .content .left {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  background-color: rgba(0, 0, 0, 0.753);
+  height: 100%;
+  padding-top: 300px;
+  padding-left: 30px;
+}
+
+body .content .left * {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+body .content .left .contact {
+  margin-bottom: 30px;
+}
+
+body .content .left .contact span {
+  margin-bottom: 10px;
+}
+
+body .content .left .contact .contact-field {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  letter-spacing: 1px;
+}
+
+body .content .left .contact .contact-field i {
+  width: 20px;
+  font-size: 1.05rem;
+}
+
+body .content .left .competences .row {
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+body .content .left .competences .row > span {
+  background-color: rgba(255, 255, 255, 0.664);
+  color: rgba(0, 0, 0, 0.753);
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+
+body .content .left .competences .row .comp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+body .content .left .competences .row .comp span {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.548);
+  padding: 10px 5px 0 0;
+  margin-left: 3px;
+}
+
+body .content .left .mieu {
+  line-height: 25px;
+}
+
+body .content .left .mieu span {
+  margin-bottom: 20px;
+}
+
+body .content .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
+  padding-top: 300px;
+  padding-left: 25px;
+}
+
+body .content .right * {
+  color: rgba(0, 0, 0, 0.753);
+}
+
+body .content .right .Objectif {
+  margin-bottom: 25px;
+}
+
+body .content .right .Objectif p {
+  width: 90%;
+  text-align: justify;
+}
+
+body .content .right .experience {
+  margin-bottom: 17px;
+}
+
+body .content .right .experience p {
+  width: 90%;
+  text-align: justify;
+}
+
+body .content .right .experience .exp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10px;
+}
+
+body .content .right .experience .exp .exp-time {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.753);
+  width: 150px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.836);
+  margin-bottom: 5px;
+}
+
+body .content .right .experience .exp .exp-loc {
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+body .content .right .hobbies > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 10px;
+  width: 90%;
+}
+
+body .content .right .hobbies .hob {
+  text-align: center;
+}
+
+body .content .right .hobbies .hob i {
+  margin-bottom: 5px;
+}
+
+body .content .band {
+  position: absolute;
+  background-color: #f1f1f1;
+  height: 130px;
+  width: 100%;
+  top: 70px;
+}
+
+body .content .band img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: 65px;
+  border: 4px solid #e4e4e4;
+}
+
+body .content .band .name {
+  position: absolute;
+  left: 370px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .content .band .name span:nth-of-type(1) {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.753);
+  display: inline-block;
+}
+
+body .content .band .name span:nth-of-type(2) {
+  position: relative;
+  font-size: 1.2rem;
+  top: -15px;
+  color: #8a7b7b;
+  letter-spacing: 1px;
+}
+
+.title {
+  letter-spacing: 4px;
+}
+
+.left-title, .right-title {
+  display: inline-block;
+  width: 90%;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+
+.left-title {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.836);
+}
+
+.right-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.753);
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.personnal-site {
+  margin: 10px 0 0 5px;
+}
+
+.personnal-site span {
+  letter-spacing: 1px;
+}
+
+.personnal-site div {
+  padding: 5px 30px;
+}
+/*# sourceMappingURL=main.css.map */
