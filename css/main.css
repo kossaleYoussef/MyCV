@@ -6,6 +6,7 @@
           box-sizing: border-box;
   outline: none;
   font-family: 'Roboto', sans-serif;
+  font-size: 14.5px;
 }
 
 body {
@@ -35,7 +36,7 @@ body .content .left {
       flex-basis: 40%;
   background-color: rgba(0, 0, 0, 0.753);
   height: 100%;
-  padding-top: 300px;
+  padding-top: 220px;
   padding-left: 30px;
 }
 
@@ -64,9 +65,13 @@ body .content .left .contact .contact-field i {
   font-size: 1.05rem;
 }
 
+body .content .left .competences .row:first-of-type {
+  margin-top: 18px;
+}
+
 body .content .left .competences .row {
-  margin-bottom: 25px;
-  margin-top: 15px;
+  margin-bottom: 18px;
+  margin-top: 8px;
 }
 
 body .content .left .competences .row > span {
@@ -107,7 +112,7 @@ body .content .right {
       -ms-flex: 1;
           flex: 1;
   height: 100%;
-  padding-top: 300px;
+  padding-top: 220px;
   padding-left: 25px;
 }
 
@@ -184,7 +189,7 @@ body .content .band {
   background-color: #f1f1f1;
   height: 130px;
   width: 100%;
-  top: 70px;
+  top: 40px;
 }
 
 body .content .band img {
@@ -258,6 +263,35 @@ body .content .band .name span:nth-of-type(2) {
 }
 
 .personnal-site div {
-  padding: 5px 30px;
+  padding: 5px 10px 5px 0;
+  display: inline-block;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.personnal-site div span {
+  color: rgba(0, 0, 0, 0.753) !important;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.623);
+  padding: 5px 8px;
+  margin: 5px 6px;
+  border-radius: 4px;
+}
+
+.langs > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.langs > div .lang {
+  padding: 5px 8px 0px 5px;
+  display: inline;
+}
+
+.langs > div .lang span {
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
